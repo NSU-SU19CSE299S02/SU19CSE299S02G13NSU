@@ -20,7 +20,18 @@ class Users(UserMixin, Base):
 
     def get_id(self):
         return self.UserIDNumber
+class Service(Base):
+    __tablename__ = 'Service'
 
+    ServiceID = Column(Integer, primary_key=True, autoincrement=True, nullable=False)
+    ServiceName = Column(String(100), nullable=False)
+    Location = Column(String(20), nullable=False)
+    DetailsLocation = Column(String(100), nullable=False)
+    HospitalName = Column(String(100), nullable=False)
+    Price = Column(Integer, nullable=True)
+    Phone = Column(String(20), nullable=True)
+    ServiceOwner = Column(Integer, ForeignKey(Users.UserIDNumber))
+    Users = relationship(Users)
 
 #Always stay at the end of the file
 engine = create_engine('sqlite:///health.db')
