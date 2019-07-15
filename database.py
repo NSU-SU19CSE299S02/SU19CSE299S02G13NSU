@@ -33,6 +33,16 @@ class Service(Base):
     ServiceOwner = Column(Integer, ForeignKey(Users.UserIDNumber))
     Users = relationship(Users)
 
+class Comment(Base):
+    __tablename__ = 'Comment'
+
+    CommentID = Column(Integer, primary_key=True, autoincrement=True, nullable=False)
+    CommentText = Column(String(500), nullable=False)
+    ServiceID = Column(Integer, ForeignKey(Service.ServiceID))
+    Service = relationship(Service)
+    UserIDNumber = Column(Integer,ForeignKey(Users.UserIDNumber))
+    Users = relationship(Users)
+
 #Always stay at the end of the file
 engine = create_engine('sqlite:///health.db')
 Base.metadata.create_all(engine)
