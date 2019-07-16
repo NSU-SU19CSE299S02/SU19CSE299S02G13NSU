@@ -39,12 +39,7 @@ def homepage():
     return render_template('index.html')
 
 
-@app.route('/contact', methods=['GET','POST'])
-def contactpage():
-    if request.method == 'POST':
-        return 'This is post request'
-    else:
-        return redirect(url_for('homepage'))
+
 
 
 
