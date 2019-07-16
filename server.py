@@ -31,12 +31,20 @@ def remove_session(ex=None):
 
 ##########################################
 
+
+
 @app.route('/')
 @app.route('/home')
 def homepage():
     return render_template('index.html')
 
 
+@app.route('/contact', methods=['GET','POST'])
+def contactpage():
+    if request.method == 'POST':
+        return 'This is post request'
+    else:
+        return redirect(url_for('homepage'))
 
 
 
