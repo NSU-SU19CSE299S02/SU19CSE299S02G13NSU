@@ -67,13 +67,13 @@ Monetization is one of the most important things to plan before making a web app
 
       Shaikh Shawon Arefin Shimon
 
-      SEPS Career Coordinator, Career &amp; Placement Center (CPC)
+      SEPS Career Coordinator, Career & Placement Center (CPC)
 
       & Lecturer,
 
-      Department of Electrical &amp; Computer Engineering (ECE)
+      Department of Electrical & Computer Engineering (ECE)
 
-      School of Engineering &amp; Physical Sciences (SEPS)
+      School of Engineering & Physical Sciences (SEPS)
 
       North South University (NSU)
 
