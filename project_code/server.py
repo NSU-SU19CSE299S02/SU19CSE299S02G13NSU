@@ -33,11 +33,6 @@ def remove_session(ex=None):
 
 
 
-@app.route('/')
-@app.route('/home')
-def homepage():
-    return render_template('index.html')
-
 
 
 
