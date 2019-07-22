@@ -69,7 +69,7 @@ Monetization is one of the most important things to plan before making a web app
 
       SEPS Career Coordinator, Career &amp; Placement Center (CPC)
 
-      &amp; Lecturer,
+      & Lecturer,
 
       Department of Electrical &amp; Computer Engineering (ECE)
 
