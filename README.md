@@ -3,39 +3,11 @@
 
 Project Name: Health Inspector
 
-Course: CSE299
-
-Section: 02
-
-Semester: Summer2019
-
 Faculty Name: Shaikh Shawon Arefin
 
 Shimon
 
-Submitted by:
-
-Group: 13
-
-Member1:
-
-NAME: SADIA AFROZ
-
-ID: 1530140642
-
-Email:sadia.afroz@northsouth.edu
-
-Member2:
-
-NAME:A.K.M.Raikuzzaman
-
-ID: 1411801642
-
-Email:akm.raikuzzaman @northsouth.edu
-
-Git Repository link:
-
-[https://github.com/akmraikzaman/SU19CSE299S02G13NSU](https://github.com/akmraikzaman/SU19CSE299S02G13NSU)
+Submitted by:Group: 13
 
 Project idea:
 
