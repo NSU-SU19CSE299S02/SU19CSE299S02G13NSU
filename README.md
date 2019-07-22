@@ -37,8 +37,6 @@ Git Repository link:
 
 [https://github.com/akmraikzaman/SU19CSE299S02G13NSU](https://github.com/akmraikzaman/SU19CSE299S02G13NSU)
 
-Date:1/7/19
-
 Project idea:
 
 We want to make an app which is one kind of medical service providing application that will help people to find different pathological test available in the nearby area. We know that many hospitals and diagnostic centers are not able to provide all the test which patient need. So, it will assist the customers in finding easily the hospitals and diagnostic centers near to them and what test they are providing. Thus customers will be benefitted as it is easier option for finding what they want rather than actually looking for the tests from hospital to hospital. We are helping the customers to find which tests are available and the prices of those tests. As everyone cannot afford many tests so they can select the test from the website accordingly with the price idea and can also select the time of the tests. It will include registration for the users and they can view the list of test and prices of different test which will be directly connected with the hospitals data inventory. This will be free for the users. As we will find the customers for the hospitals and the diagnostic centers and as the customers can pay online through the website the hospitals will pay a small percentage for the service.
@@ -63,19 +61,7 @@ Monetization:
 
 Monetization is one of the most important things to plan before making a web application because maintaining it is not cheap. The database that contains the data, requires maintenance which cost a considerable amount of money. We will use advertisement in specific time and for that we will use google AdSense to display.
 
-      Regards
-
-      Shaikh Shawon Arefin Shimon
-
-      SEPS Career Coordinator, Career & Placement Center (CPC)
-
-      & Lecturer,
-
-      Department of Electrical & Computer Engineering (ECE)
-
-      School of Engineering & Physical Sciences (SEPS)
-
-      North South University (NSU)
+      
 
 
 
