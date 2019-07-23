@@ -6,7 +6,6 @@ from flask_wtf import FlaskForm
 from flask_bootstrap import Bootstrap
 from wtforms.validators import InputRequired, Email, Length
 from forms import *
-from other_forms import *
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret_key'
@@ -15,7 +14,7 @@ app.config['SECRET_KEY'] = 'secret_key'
 #Connecting to the database and ORM as known sqlalchemy
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import sessionmaker, scoped_session
-from database_setup import *
+
 
 engine = create_engine('sqlite:///health.db')
 Base.metadata.bind = engine
